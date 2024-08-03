@@ -80,7 +80,7 @@ nav ul li a:hover {
 .cover-image {
     width: 100%;
     height: calc(200vh - 10px); /* Altura de la ventana menos la altura del header */
-    background: url('6.jpg') no-repeat center center;
+    background: url('alba.jpg') no-repeat center center;
     background-size: cover;
 }
 
