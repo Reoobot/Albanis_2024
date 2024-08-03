@@ -4,68 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Página de Inicio</title>
-    <style>
-        body, html {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            height: 100%;
-        }
-        header {
-            background-color: #333;
-            color: white;
-            padding: 10px 0;
-            text-align: center;
-        }
-        nav {
-            display: flex;
-            justify-content: center;
-            background-color: #444;
-        }
-        nav ul {
-            list-style: none;
-            padding: 0;
-            margin: 0;
-            display: flex;
-        }
-        nav ul li {
-            margin: 0 15px;
-        }
-        nav ul li a {
-            color: white;
-            text-decoration: none;
-            padding: 10px 15px;
-            display: block;
-        }
-        nav ul li a:hover {
-            background-color: #555;
-            color:#D48E46;
-        }
-        .cover-image {
-            width: 100%;
-            height: calc(200vh - 10px); /* Altura de la ventana menos la altura del header */
-            background: url('/6.jpg') no-repeat center center;
-            background-size: cover;
-        }
-        h1 {
-            font-size: 7vh;
-        }
-        @media (max-width: 600px) {
-            h1 {
-                font-size: 2.4vh;  
-            }
-            nav ul li a {
-                font-size: 1.4vh;
-                padding: 10px 15px;
-            }
-            .cover-image {
-            width: 100%;
-            height: calc(100vh - 50px); /* Altura de la ventana menos la altura del header */
-            background: url('/6.jpg') no-repeat center center;
-            background-size: cover;
-            }
-        }
-    </style>
+    <link rel="stylesheet" href="styles.css"> <!-- Enlaza el archivo CSS -->
 </head>
 <body>
 
@@ -75,8 +14,8 @@
 
 <nav>
     <ul>
-        <li><a href="/index.html">Inicio</a></li>
-        <li><a href="/about.html">Sobre Nosotros</a></li>
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="about.html">Sobre Nosotros</a></li>
         <li><a href="#">Collage</a></li>
         <li><a href="#">Videos</a></li>
     </ul>
